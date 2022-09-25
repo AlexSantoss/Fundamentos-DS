@@ -20,7 +20,7 @@ Douglas Castro
 
 ## Instalando bibliotecas Python
 
-#### É necessário a instação das bibliotecas Puthon listasas abaixo
+#### É necessário a instação das bibliotecas Python listadas abaixo
 
 pip install pandas
 pip install numpy
@@ -33,3 +33,10 @@ pip install pygrib ou conda install -c conda-forge pygrib
 pip install cartopy
 pip install plotly
  
+### Criar a estrutura abaixo dentro da pasta datasets
+#### Extrair o conteúdo do arquivo inmet_2019.rar para a pasta inmet
+
+/datasets/agregados
+/datasets/diarios
+/datasets/inmet
+
