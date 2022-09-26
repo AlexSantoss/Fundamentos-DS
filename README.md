@@ -22,16 +22,17 @@ Douglas Castro
 
 #### É necessário a instação das bibliotecas Python listadas abaixo
 
-pip install pandas
-pip install numpy
-pip install matplotlib
-pip install folium
-pip install seaborn
-pip install prov
-pip install kaleido
-pip install pygrib ou conda install -c conda-forge pygrib
-pip install cartopy
-pip install plotly
+- pip install pandas
+- pip install numpy
+- pip install matplotlib
+- pip install folium
+- pip install seaborn
+- pip install prov
+- pip install pydot
+- pip install kaleido
+- pip install pygrib ou conda install -c conda-forge pygrib
+- pip install cartopy
+- pip install plotly
  
 ### Criar a estrutura abaixo dentro da pasta datasets
 #### Extrair o conteúdo do arquivo inmet_2019.rar para a pasta inmet
