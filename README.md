@@ -35,7 +35,7 @@ Sergio Serra                  | Jorge Zavaleta
 
 É necessário usar os dados escontrados no ["Banco de Dados Meteorológicos"](https://portal.inmet.gov.br/dadoshistoricos) do INMET, disponibilizados como um arquivo compactado .rar por ano, contendo todas as estações operantes nesse período. Após baixado os arquivos dos anos que deseja fazer a análise, basta descompactar em uma pasta chamada "inmet" dentro da pasta datasets. Nesse repositório estamos disponibilizando o arquivo referente ao ano de 2019.  
 
-Nesse trabalho, estamos usando apenas as estações de código A709, A721, A743, A759, S701, S706, S710, S712 e S716, todas localizadas no Mato Grosso do Sul.  
+Nesse trabalho, estamos usando apenas as estações de código A709, A721, A743, A759, S701, S706, S710, S712 e S716, todas localizadas no Mato Grosso do Sul.  Para facilitar quem desejar reproduzir o experimento, o dataset consolidado.csv pode ser encontrado nesse repositório na pasta datasets, não sendo necessário executar a última célula desse notebook.
 
 ### Passo 2: Análise dos dados e padronização
 
@@ -53,7 +53,7 @@ Dentro da pasta "Estudo" existe uma série de notebooks com visualizações dos 
 
 ### Passo 4: KcDual
 
-Na pasta principal existe um notebook chamado "KcDual-py.ipynb". Ele executa as simulações usando o arquivo "consolidado.csv" originário do Passo 1. Executando ele, o retorno será um gráfico para cada estação presente nesse arquivo, com simulações referentes ao risco atrelado ao plantar soja em nove períodos diferentes.
+Na pasta principal existe um notebook chamado "KcDual-py.ipynb". Ele executa as simulações usando o arquivo "consolidado.csv" originário do Passo 1 e um arquivo de paramêtros do plantio, no nosso caso o ParametrosSoja.xls. Executando ele, o retorno será um gráfico para cada estação presente nesse arquivo, com simulações referentes ao risco atrelado ao plantar soja em nove períodos diferentes.
 
 ## Cite as
 
